@@ -3,6 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    font-size: 16px;
+    font-family: roboto, Arial, sans-serif;
+}
 nav{
     background-color: darkblue;
     padding: 10px;
@@ -50,6 +55,7 @@ footer{
     text-align: center;
 }
 
+
 /* Class Selectors */ 
 
 .box{
@@ -63,12 +69,21 @@ footer{
 aside{
     width: 20rem;
     text-align: center;
+    position: relative;
 }
 main img{
     float: right;
 }
 aside h2{
-    position: relative;
-    top: 47px;
-    left: 150px;
+    position: center;
+    top: 5px;
+    left: 200px;
+}
+p{
+    margin: 1rem;
+
+}
+
+.indent{
+    padding-left: 1rem;
 }
