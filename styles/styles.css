@@ -73,6 +73,8 @@ aside{
 }
 main img{
     float: right;
+    width: 150px;
+    height: auto;
 }
 aside h2{
     position: absolute;
@@ -80,8 +82,7 @@ aside h2{
     left: 200px;
 }
 p{
-    margin: 1rem;
-
+    padding: 0;
 }
 
 .indent{
