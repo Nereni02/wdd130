@@ -54,3 +54,7 @@ h1, h2{
     background-color: var(--accent1-color);
     color: white;
 }
+.hero article img{
+    float: right;
+    width: 125px;
+}
