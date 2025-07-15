@@ -13,6 +13,11 @@
     --body-font: 'lato', sans-serif;
 }
 
+header{
+    background-color: var(--primary-color);
+    color: var(--accent2-color);
+}
+
 body{
     font-family: var(--body-font);
     color: var(--accent1-color);
@@ -25,6 +30,11 @@ header, main, footer{
 }
 
 h1, h2{
+    margin: 16px;
+    padding: 8px;
+}
+
+nav, p, section, article{
     margin: 16px;
     padding: 8px;
 }
@@ -52,8 +62,9 @@ h1, h2{
     text-align: center;
     opacity: 0.7;
     background-color: var(--accent1-color);
-    color: white;
+    color: #fff;
 }
+
 .hero article img{
     float: right;
     width: 125px;
