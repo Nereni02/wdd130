@@ -37,7 +37,6 @@ nav, p, section, article{
     text-decoration: none;
 }
 
-
 h1{
     position: absolute;
     top: 20px;
@@ -98,17 +97,26 @@ nav a{
 
 /*About Us*/
 .hero article{
+    margin: 20px auto;
     background-color: var(--secondary-color);
     padding: 20px;
+    display: flex;
+}
+.hero article h2{
+    font-size: 20px;
+    color: var(--primary-color);
+    margin-bottom: 10px;
     text-align: center;
 }
-
 .hero article p{
     text-align: justify;
     color: black;
 }
 .hero article img{
+    display: flex;
     width: 200px;
     height: auto;
     margin-top: 20px;
 }
+
+/*History*/
