@@ -140,13 +140,25 @@ nav a{
 
 /*History*/
 .History{
-    /*background-color: violet;*/
-    margin: 5px auto;
+    padding: 20px;
+    margin: 10px auto;
+    background-color: rgb(228, 228, 228);
+    box-shadow: 0 0 0 4px var(--accent2-color);
 }
-.History p{
-    text-align: justify;
-    color: black;
+.History h2{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+    color: var(--primary-color);
 }
+
+.History img{
+    height: 100px;
+    margin: 5px;
+}
+
+
+
 
 /*Adventure*/
 .Adventure{
