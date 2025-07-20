@@ -63,23 +63,23 @@ header img{
     height: 80px;
     margin: 20px;
 }
-nav{
+nav {
     background-color: var(--accent1-color);
     padding: 20px;
-    display: ruby;
+    display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
+
 nav a{
-    align-items: first right;
     display: inline-table;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding: 10px 15px;
     text-decoration: none;
     font-size: 25px;
     font-weight: 600;
     background-color: white;
     color: var(--accent1-color);
+    border-radius: 5px;
 }
 
 /*Title*/
