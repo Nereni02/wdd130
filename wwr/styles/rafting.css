@@ -33,10 +33,6 @@ nav, p, section, article{
     padding: 5px;
 }
 
-.socialmedia a{
-    text-decoration: none;
-}
-
 h1{
     position: absolute;
     top: 20px;
@@ -55,6 +51,7 @@ h1{
 
 /*menu*/
 header{
+    margin: 5px auto;
     display: flex;
     height: 100px;
     background-color: #264653;
@@ -97,7 +94,7 @@ nav a{
 
 /*About Us*/
 .hero article{
-    margin: 20px auto;
+    margin: 5px auto;
     background-color: var(--secondary-color);
     padding: 20px;
     display: flex;
@@ -120,3 +117,36 @@ nav a{
 }
 
 /*History*/
+.History{
+    /*background-color: violet;*/
+    margin: 5px auto;
+}
+.History p{
+    text-align: justify;
+    color: black;
+}
+
+/*Adventure*/
+.Adventure{
+    margin: 5px auto;
+}
+.Adventure img{
+    display: flex;
+    width: 200px;
+    height: auto;
+    margin-top: 20px;
+}
+/*Links*/
+footer{
+    background-color: #f4a261;
+    text-align: center;
+    align-items: center;
+}
+/*.socialmedia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.socialmedia a{
+    text-decoration: none;
+}*/
