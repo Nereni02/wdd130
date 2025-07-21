@@ -33,16 +33,7 @@ nav, p, section, article{
     padding: 5px;
 }
 
-h1{
-    position: absolute;
-    top: 20px;
-    width: 100%;
-    opacity: 0.8;
-    padding: 16px;
-    text-align: center;
-    background-color: var(--accent1-color);
-    color: #fff;
-}
+
 
 .hero article img{
     float: right;
@@ -84,6 +75,16 @@ nav a{
 }
 
 /*Title*/
+h1{
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    opacity: 0.8;
+    padding: 16px;
+    text-align: center;
+    background-color: var(--accent2-color);
+    color: #fff;
+}
 .hero{
     display: flex;
     position: relative;
@@ -98,20 +99,22 @@ nav a{
 
 /*About Us*/
 .hero article{
-    top: 30%;
-    margin: 5px;
-    opacity: 0.7;
+    top: 50%;
+    left: 50%;
+    width: 90%;
+    opacity: 0.9;
     padding: 20px;
+    max-width: 80%;
     border-radius: 5px;
     position: absolute;
-    max-width: none;
-    background-color: var(--secondary-color);
+    transform: translate(-50%, -50%);
+    background-color: var(--primary-color);
 }
 .hero article h2{
     font-size: 20px;
     text-align: center;
     margin-bottom: 10px;
-    color: var(--primary-color);
+    color: #fff;
 }
 .article-content{
     display: flex;
@@ -140,15 +143,15 @@ nav a{
 /*History*/
 .History{
     padding: 20px;
+    color: #fff;
     margin: 10px auto;
-    background-color: rgb(228, 228, 228);
-    box-shadow: 0 0 0 4px var(--accent2-color);
+    background-color: var(--primary-color);
 }
 .History h2{
     font-size: 25px;
     text-align: center;
     margin-bottom: 10px;
-    color: var(--primary-color);
+    color: #fff;
 }
 .History img{
     height: 100px;
@@ -157,14 +160,15 @@ nav a{
 
 /*Adventure*/
 .Adventure{
-    margin: 5px auto;
-    background-color: var(--primary-color);
+    margin: 10px auto;
+    box-shadow: 0 0 0 4px var(--accent2-color);
+    background-color: rgb(228, 228, 228);
 }
 .Adventure h2{
     font-size: 25px;
     text-align: center;
     margin-bottom: 10px;
-    color: #fff;
+    color: var(--accent1-color);
 }
 .adventure_gallery{
     display: flex;
@@ -172,16 +176,17 @@ nav a{
     justify-content: center;
     gap: 1rem;
 }
+.adventure_gallery img{
+    width: 90%;
+    height: auto;
+    margin: 5px;
+}
 .adventure_gallery figure{
     flex: 1 1 150px;
     max-width: 180px;
 }
-.adventure_gallery img{
-    width: 100%;
-    height: auto;
-    margin: 5px;
-}
 .adventure_gallery figcaption{
+    text-align: center;
     margin-top: 3.5px;
     font-size: 12px;
     color: black;
