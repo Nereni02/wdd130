@@ -1,8 +1,8 @@
 :root{
-    --primary-color: #055a05;
-    --secondary-color: #f4a261;
+    --primary-color: #05688f;
+    --secondary-color: #488ff8;
     --accent1-color: #264653;
-    --accent2-color: #e9c46a;
+    --accent2-color: #226ddd;
     --heading-font: "Merriweather Sans", sans-serif;
     --body-font: "Lato", sans-serif;
 }
@@ -25,7 +25,7 @@ header, main, footer{
 
 h1, h2{
     font-family: var(--heading-font);
-    color: var(--primary-color);
+    /*color: var(--primary-color);*/
 }
 
 nav, p, section, article{
@@ -37,9 +37,9 @@ h1{
     position: absolute;
     top: 20px;
     width: 100%;
+    opacity: 0.8;
     padding: 16px;
     text-align: center;
-    opacity: 0.7;
     background-color: var(--accent1-color);
     color: #fff;
 }
@@ -146,7 +146,7 @@ nav a{
     box-shadow: 0 0 0 4px var(--accent2-color);
 }
 .History h2{
-    font-size: 20px;
+    font-size: 25px;
     text-align: center;
     margin-bottom: 10px;
     color: var(--primary-color);
@@ -163,24 +163,40 @@ nav a{
 /*Adventure*/
 .Adventure{
     margin: 5px auto;
+    background-color: var(--primary-color);
 }
+.Adventure h2{
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
 .Adventure img{
     display: flex;
     width: 200px;
     height: auto;
-    margin-top: 20px;
+    margin: 10px;
 }
 /*Links*/
 footer{
-    background-color: #f4a261;
+    display: flex;
+    background-color: var(--accent1-color);
     text-align: center;
     align-items: center;
 }
-/*.socialmedia{
+footer p{
+    color: #fff;
+}
+.socialmedia{
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .socialmedia a{
+    display: flex;
+    padding: 5px;
+    margin: 1px;
     text-decoration: none;
-}*/
+    background-color: #38647500;
+}
