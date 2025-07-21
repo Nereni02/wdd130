@@ -54,7 +54,7 @@ header{
     margin: 5px auto;
     display: flex;
     height: 100px;
-    background-color: #264653;
+    background-color: var(--accent1-color);
     justify-content: space-between;
     align-items: center;
     padding: 10px;
@@ -157,9 +157,6 @@ nav a{
     margin: 5px;
 }
 
-
-
-
 /*Adventure*/
 .Adventure{
     margin: 5px auto;
@@ -172,12 +169,24 @@ nav a{
     color: #fff;
 }
 
-.Adventure img{
+.figure{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    padding: 5px;
+}
+
+.figure img{
     display: flex;
     width: 200px;
     height: auto;
     margin: 10px;
 }
+
+
+
 /*Links*/
 footer{
     display: flex;
@@ -186,6 +195,7 @@ footer{
     align-items: center;
 }
 footer p{
+    padding: 5px;
     color: #fff;
 }
 .socialmedia{
@@ -195,8 +205,8 @@ footer p{
 }
 .socialmedia a{
     display: flex;
-    padding: 5px;
-    margin: 1px;
+    padding: 3px;
+    margin: 5px;
     text-decoration: none;
     background-color: #38647500;
 }
