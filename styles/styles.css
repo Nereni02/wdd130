@@ -34,6 +34,7 @@ img{
 }
 p{
     padding: 10px;
+    line-height: 1.5;
 }
 main{
     grid-column: 2/3;
@@ -71,9 +72,6 @@ aside img{
     width: 200px;
     height: auto;
 }
-p{
-    padding: 0;
-}
 footer{
     margin-top: 15px;
     border-top: 1px solid #000;
@@ -100,12 +98,9 @@ main img{
     height: auto;
 }
 aside h2{
-    position: absolute;
-    top: 5px;
-    left: 200px;
-}
-p{
-    padding: 0;
+    margin: 0.5rem 0;
+    text-align: center;
+    position: static;
 }
 .indent{
     padding-left: 1rem;
@@ -114,7 +109,16 @@ header, footer{
     max-width: 840px;
     margin: 0 auto;
 }
-.grid{
+.grid {
     display: grid;
-    align-items: center;
+    grid-template-columns: 1fr 3fr;
+    gap: 1rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.grid aside {
+    grid-column: 1 / 2;
+}
+.grid main {
+    grid-column: 2 / 3;
 }
