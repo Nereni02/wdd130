@@ -1,38 +1,30 @@
 :root{
-    --primary-color: #05688f;
-    --secondary-color: #488ff8;
-    --accent1-color: #264653;
-    --accent2-color: #226ddd;
+    --primary-color: #218fcf;
+    --secondary-color: #21cfb8;
+    --accent1-color: /*#264653*/#2138cf;
+    --accent2-color: #cf6121;
     --heading-font: "Merriweather Sans", sans-serif;
     --body-font: "Lato", sans-serif;
 }
-
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
 body{
     font-family: var(--body-font);
-    color: var(--accent1-color);
 }
-
 header, main, footer{
     width: 840px;
     margin: 0 auto;
 }
-
 h1, h2{
     font-family: var(--heading-font);
-    /*color: var(--primary-color);*/
 }
-
 nav, p, section, article{
     margin: 5px;
     padding: 5px;
 }
-
 .hero article img{
     float: right;
     width: 125px;
@@ -43,7 +35,7 @@ header{
     margin: 5px auto;
     display: grid;
     height: 100px;
-    background-color: var(--accent1-color);
+    background-color: var(--primary-color);
     padding: 5px;
     grid-template-columns: auto 1fr;
     align-items: center;
@@ -57,7 +49,7 @@ nav {
     display: flex;
     align-items: center;    
     justify-content: space-evenly;
-    background-color: var(--accent1-color);
+    background-color: var(--primary-color);
 }
 nav a{
     margin: 5px;
@@ -69,7 +61,7 @@ nav a{
     text-decoration: none;
     display: inline-table;
     background-color: white;
-    color: var(--accent1-color);
+    color: var(--primary-color);
 }
 
 /*Title*/
@@ -143,7 +135,7 @@ h1{
     padding: 20px;
     color: #fff;
     margin: 10px auto;
-    background-color: var(--primary-color);
+    background-color: var(--accent2-color);
 }
 .History h2{
     color: #fff;    
@@ -175,7 +167,7 @@ h1{
 /*Adventure*/
 .Adventure{
     margin: 10px auto;
-    box-shadow: 0 0 0 4px var(--accent2-color);
+    box-shadow: 0 0 0 4px var(--primary-color);
     background-color: rgb(228, 228, 228);
 }
 .Adventure h2{
@@ -208,7 +200,7 @@ h1{
 /*Links*/
 footer{
     display: flex;
-    background-color: var(--accent1-color);
+    background-color: var(--primary-color);
     text-align: center;
     align-items: center;
 }
@@ -220,11 +212,13 @@ footer p{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: var(--primary-color);
 }
 .socialmedia a{
     display: flex;
     padding: 3px;
     margin: 5px;
+    border-radius: 5px;
     text-decoration: none;
-    background-color: #38647500;
+    background-color: #cbe4f1;
 }
