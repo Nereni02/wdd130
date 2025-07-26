@@ -167,13 +167,12 @@ h1{
 /*Adventure*/
 .Adventure{
     margin: 10px auto;
-    box-shadow: 0 0 0 4px var(--primary-color);
-    background-color: rgb(228, 228, 228);
+    box-shadow: 0 0 0 4px var(--accent1-color);
 }
 .Adventure h2{
     font-size: 25px;
     text-align: center;
-    color: var(--accent1-color);
+    color: var(--primary-color);
 }
 .adventure_gallery{
     display: flex;
