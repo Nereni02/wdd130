@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    padding: 1.5px;
 }
 body{
     font-size: 16px;
@@ -22,23 +23,28 @@ nav a{
     font-weight: 700;
     color: #fff;
 }
+/*introducion*/
 h1{
     color: steelblue;
+    text-align: center;
 }
-img{
+main img{
+    float: left;
     width: 150px;
     height: auto;
-    border: 1px solid black;
     padding: 2px;
-    box-shadow: 0 0 30px gray;
+    border: 0.5px solid rgb(68, 68, 68);
+    box-shadow: 0 0 15px gray;
 }
-p{
-    padding: 10px;
+main p{
+    margin: 1.5px;
     line-height: 1.5;
+    text-align: justify;   
 }
 main{
-    grid-column: 2/3;
+    grid-area: main;
     margin: 1rem;
+    margin: 5px;
 }
 aside{
     width: 20rem;
@@ -46,9 +52,9 @@ aside{
     grid-column: 1/2;
     grid-row: 1/2;
     text-align: center;
-    /*width: 20rem;
-    margin: 1rem;
-    border: 1px solid rgb( 0 0 0 / 0.2);
+    background-color: rgb(255, 251, 0);
+    
+    /*border: 1px solid rgb( 0 0 0 / 0.2);
     padding: 1rem;
     background-color: #eee;
     color: #333;
@@ -81,17 +87,18 @@ footer{
 /* Class Selectors */ 
 
 .box{
-    margin: 1rem;
-    border: 1px solid rgb( 0 0 0 / 10%);
-    padding: 1rem;
-    background-color: #ddd;
+    margin: 5px;
+    border: 1px solid rgba(68, 68, 68, 0.1);
+    padding:2px;
+    background-color: #dddddd;
     color: #000;
+    grid-area: aside-left;
 }
-/*aside{
+aside{
     width: 20rem;
     text-align: center;
     position: relative;
-}*/
+}
 main img{
     float: right;
     width: 150px;
@@ -102,23 +109,33 @@ aside h2{
     text-align: center;
     position: static;
 }
-.indent{
-    padding-left: 1rem;
+.box_indent{
+    margin: 5px;
+    border: 1px solid rgba(68, 68, 68, 0.1);
+    padding:2px;
+    background-color: #dddddd;
+    color: #000;
+    grid-area: aside-indent;
 }
 header, footer{
     max-width: 840px;
     margin: 0 auto;
 }
 .grid {
-    display: grid;
-    grid-template-columns: 1fr 3fr;
-    gap: 1rem;
-    max-width: 1000px;
+    gap: 5px;
+    display: grid;    
     margin: 0 auto;
+    min-width: fit-content, 900px;
+    grid-template-columns: 1fr 3fr;
+    grid-template-areas:
+        "aside-left main"
+        "aside-indent main";
 }
 .grid aside {
-    grid-column: 1 / 2;
+    align-items: left;
+    max-width: fit-content;
+    grid-column: 1/2;
 }
-.grid main {
-    grid-column: 2 / 3;
+footer p{
+    text-align: center;
 }
