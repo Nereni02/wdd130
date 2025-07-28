@@ -167,7 +167,7 @@ h1{
 /*Adventure*/
 .Adventure{
     margin: 10px auto;
-    box-shadow: 0 0 0 4px var(--accent1-color);
+    box-shadow: 0 0 0 2px var(--accent1-color);
 }
 .Adventure h2{
     font-size: 25px;
@@ -220,4 +220,12 @@ footer p{
     border-radius: 5px;
     text-decoration: none;
     background-color: #cbe4f1;
+}
+/*contactus*/
+.contact-form{    
+    margin: 10px auto;
+    box-shadow: 0 0 0 2px var(--primary-color);
+}
+.contact-form h2{
+    text-align: left;
 }
