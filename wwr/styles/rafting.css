@@ -252,25 +252,12 @@ footer p{
 }
 form{
     flex: 1;
-    gap: 16px;    
+    gap: 5px;
     padding: 10px;  
     display: flex;      
-    min-width: 200px;
-    line-height: 1;
-    background-color: aquamarine;
+    min-width: 300px;
+    line-height: 1.5;
     flex-direction: column;
-
-
-
-
-
-
-
-
-    font-family: inherit;
-    color: black;
-
-
 }
 form input [type = "text"],
 form input [type = "email"],
@@ -294,3 +281,11 @@ form textarea {
     padding: 8px 24px;
     background-color: var(--primary-color);
 }
+.form-side{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+}
+
+/*meet our team*/
