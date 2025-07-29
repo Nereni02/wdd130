@@ -31,27 +31,38 @@
                     </div>
                 </article>
             </div>
-            <section class="contact-form"><!-- Contact Form -->
+            <section class="contact-form">
                 <h2>Send Us a Message</h2>
-                <form action="#" method="post" novalidate>
-                    <label for="name">Your Name:</label><br>
-                    <input type="text" id="name" name="name" required placeholder="Enter your full name"><br><br>
-                    <label for="email">Your Email Address:</label><br>
-                    <input type="email" id="email" name="email" required placeholder="example@domain.com"><br><br>
-                    <p>Purpose of your message:</p>
-                    <input type="radio" id="general" name="purpose" value="general" required>
-                    <label for="general">General Inquiry</label><br>
-                    <input type="radio" id="reservation" name="purpose" value="reservation">
-                    <label for="reservation">Reservation       <input type="radio" id="suggestion" name="purpose" value="suggestion">
-                    <label for="suggestion">Website Suggestion</label><br><br>
-                    <label for="message">Your Message:</label><br>
-                    <textarea id="message" name="message" rows="5" required placeholder="Write your message here..."></textarea><br><br>
-                    <input type="checkbox" id="subscribe" name="subscribe">
-                    <label for="subscribe">Please subscribe me to the monthly newsletter</label><br><br>
-                    <button type="submit" class="submit-btn">Send Message</button>
-                    <img src="images/Send_Us.jpg" alt="Send us a message">
-                </form>
+                <div class="form-container">
+                    <form action="#" method="post" novalidate>
+                        <label for="name">Your Name:</label>
+                        <input type="text" id="name" name="name" required placeholder="Enter your full name">
+                        <label for="email">Your Email Address:</label>
+                        <input type="email" id="email" name="email" required placeholder="example@domain.com">
+                        <label for="message">Your Message:</label>
+                        <textarea id="message" name="message" rows="5" required placeholder="Write your message here..."></textarea>
+                        <p>Purpose of your message:</p>
+                        <div class="radio-group">
+                            <label><input type="radio" name="purpose" value="general" required> General Inquiry</label>
+                            <label><input type="radio" name="purpose" value="reservation"> Reservation</label>
+                            <label><input type="radio" name="purpose" value="suggestion"> Website Suggestion</label>
+                        </div>
+                        <label><input type="checkbox" id="subscribe" name="subscribe"> Please subscribe me to the monthly newsletter</label>
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </form>
+                    <div class="form-image">
+                        <img src="images/Send_Us.jpg" alt="Send us a message">
+                    </div>
+                </div>
             </section>
+
+
+
+
+
+
+
+            
             <section class="employee-profiles">
                 <h2>Meet Our Team</h2>
                 <figure>
@@ -88,5 +99,6 @@
     </body>
 </html>
 <!--https://app.moqups.com/6qP68S6jvKqS5OBnymYoaWWtw8S1mSws/view/page/a9b9a339d--> 
+<!--https://byui-cse.github.io/wdd130-ww-course/week05/prove-rafting-contactus.html-->
 
-<!--https://nereni02.github.io/wdd130/wwr/about.html-->
+<!--https://nereni02.github.io/wdd130/wwr/contact.html-->

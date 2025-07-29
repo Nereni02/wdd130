@@ -5,6 +5,7 @@
     --accent2-color: #cf6121;
     --heading-font: "Merriweather Sans", sans-serif;
     --body-font: "Lato", sans-serif;
+    --message-color:#ecccb9c9;
 }
 *{
     margin: 0;
@@ -221,18 +222,57 @@ footer p{
     text-decoration: none;
     background-color: #cbe4f1;
 }
-/*contactus*/
+
+/*Contact Form*/
 .contact-form{
-    /*position: absolute;*/
     margin: 10px auto;
+    background-color: var(--message-color);
     box-shadow: 0 0 0 2px var(--primary-color);
 }
 .contact-form h2{
+    margin-bottom: 5px;
     text-align: left;
+    font-size: 18.67;
+    color: var(--primary-color);
 }
 .contact-form img{
-    width: 200px;
+    width: 250px;
     height: auto;
-    border-radius: 5px;
-    margin: 0;
+    display: block;  
+    margin-right: 20px;  
+}
+.form-container {
+    background-color: #2138cf;
+    gap: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex;
+}
+form{
+    flex: 1;
+    min-width: 300px;
+    line-height: 1.5;
+    background-color: aquamarine;
+}
+
+form input [type = "text"],
+form input [type = "email"],
+form textarea {
+    width: 200px;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+.radio-grup{
+    display: flex;
+    margin-bottom: 16px;
+    flex-direction: column;
+}
+.submit-btn {
+    border: none;
+    color: white;    
+    cursor: pointer;    
+    margin-top: 16px;
+    padding: 8px 24px;
+    background-color: var(--primary-color);
 }
