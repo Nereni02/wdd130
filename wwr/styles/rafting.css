@@ -242,19 +242,36 @@ footer p{
     margin-right: 20px;  
 }
 .form-container {
-    background-color: #2138cf;
     gap: 30px;
+    padding: 5px;
     display: flex;
     flex-wrap: wrap;
     align-items: flex;
+    justify-content: center;
+
 }
 form{
     flex: 1;
-    min-width: 300px;
-    line-height: 1.5;
+    gap: 16px;    
+    padding: 10px;  
+    display: flex;      
+    min-width: 200px;
+    line-height: 1;
     background-color: aquamarine;
-}
+    flex-direction: column;
 
+
+
+
+
+
+
+
+    font-family: inherit;
+    color: black;
+
+
+}
 form input [type = "text"],
 form input [type = "email"],
 form textarea {
@@ -265,13 +282,14 @@ form textarea {
 }
 .radio-grup{
     display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
     margin-bottom: 16px;
     flex-direction: column;
 }
 .submit-btn {
     border: none;
     color: white;    
-    cursor: pointer;    
     margin-top: 16px;
     padding: 8px 24px;
     background-color: var(--primary-color);
