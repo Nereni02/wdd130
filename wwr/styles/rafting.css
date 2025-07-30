@@ -230,6 +230,7 @@ footer p{
     box-shadow: 0 0 0 2px var(--primary-color);
 }
 .contact-form h2{
+    margin-left: 16px;
     margin-bottom: 5px;
     text-align: left;
     font-size: 18.67;
@@ -289,3 +290,34 @@ form textarea {
 }
 
 /*meet our team*/
+.profiles{
+    margin: 10px;
+}
+.profiles h2{
+    font-size: 18.67;
+    margin-bottom: 5px;
+    text-align: center;    
+    color: var(--primary-color);
+}
+.profile-container{
+    gap: 4rem;    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.profile-container img{
+    width: 90%;
+    height: 300px;
+    margin: 3px;
+}
+.profile-container figcaption{
+    text-align: center;
+    margin-top: 3.5px;
+    color: black;
+}
+.profile-container h3{
+    border-radius: 3px;
+    color: var(--primary-color);
+    background-color: var(--message-color);
+}
