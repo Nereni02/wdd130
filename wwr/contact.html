@@ -43,8 +43,8 @@
                         <ul>
                             <li>+1 555-010-7890</li>
                             <li>+52 55 1234 5678</li>
-                            <li><a href="info@wildriverrafting.com">info@wildriverrafting.com</a></li>
-                            <li><a href="bookings@wildriverrafting.com">bookings@wildriverrafting.com</a></li>
+                            <li><a href="mailto:info@wildriverrafting.com">info@wildriverrafting.com</a></li>
+                            <li><a href="mailto:bookings@wildriverrafting.com">bookings@wildriverrafting.com</a></li>
                         </ul>
                     </div>
                 </div>
@@ -61,14 +61,17 @@
                         <textarea id="message" name="message" rows="5" required placeholder="Type here your message..."></textarea>
                         <p>Purpose of your message:</p>
                         <div class="radio-group">
-                            <label><input type="radio" name="purpose" value="general" required> General Inquiry</label>
-                            <label><input type="radio" name="purpose" value="reservation"> Reservation</label>
-                            <label><input type="radio" name="purpose" value="suggestion"> Website Suggestion</label>
+                            <input type="radio" id="purpose-general" name="purpose" value="general" required>
+                            <label for="purpose-general">General Inquiry</label>
+                            <input type="radio" id="purpose-reservation" name="purpose" value="reservation">
+                            <label for="purpose-reservation">Reservation</label>
+                            <input type="radio" id="purpose-suggestion" name="purpose" value="suggestion">
+                            <label for="purpose-suggestion">Website Suggestion</label>
                         </div>
                     </form>
                     <div class="form-side">
-                        <img src="images/send_us.jpg" alt="Send us a message">
-                        <button type="submit" class="submit-btn">Send Message</button>                        
+                        <img src="images/send_message.jpg" alt="Send us a message">
+                        <button type="submit" class="submit-btn">Contact Our Team</button>                        
                     </div>
                 </div>
             </section>
