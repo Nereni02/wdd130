@@ -228,23 +228,49 @@ footer p{
 /*Maps*/
 .find-Us{
     background-color: #a6ff00;
-    display: flex;
 }
 .find-Us h3{
-    margin-left: 16px;
-    margin-bottom: 5px;
-    text-align: center;
+    margin: 0 auto 10px;
+    width: 250px;
     font-size: 20px;
     color: var(--primary-color);
+    text-align: justify;
 }
-.GoogleMap{  
-    place-items: center;  background-color: #cf6121;
-    max-width: 250px;
-    height: 250px;
+.info-container {
+    background-color: #21cfb8;
     display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
 }
-
-
+.GoogleMap,.PhoneNumber{
+    width: 300px;
+    background-color: #0026ff;
+    padding: 5px;
+    box-sizing: border-box;
+    color: white;
+    border-radius: 8px;
+}
+.GoogleMap iframe {
+    width: 100%;
+    height: 200px;
+    border: 0;
+    display: block;
+}
+.GoogleMap p, .PhoneNumber p {
+    margin-top: 10px;
+    font-size: 14px;
+    text-align: left;
+}
+.PhoneNumber ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+    text-align: left;
+}
+.PhoneNumber li {
+    margin-bottom: 5px;
+}
 
 
 
