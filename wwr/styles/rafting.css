@@ -223,39 +223,60 @@ footer p{
     background-color: #cbe4f1;
 }
 
+/*get in touch*/
 
 
-/*Maps*/
+
+
+
+
+/*Map and Location*/
 .find-Us{
-    background-color: #a6ff00;
+    background-color: #ffffff;
 }
 .find-Us h3{
-    margin: 0 auto 10px;
-    width: 250px;
+    margin: 5px;
+    margin-left: 55px;
+    width: 700px;
     font-size: 20px;
     color: var(--primary-color);
-    text-align: justify;
+    text-align: center;
 }
 .info-container {
-    background-color: #21cfb8;
     display: flex;
     justify-content: center;
     gap: 40px;
     flex-wrap: wrap;
 }
-.GoogleMap,.PhoneNumber{
+.GoogleMap{
     width: 300px;
-    background-color: #0026ff;
     padding: 5px;
-    box-sizing: border-box;
     color: white;
     border-radius: 8px;
+    box-sizing: border-box;
+    background-color: var(--primary-color);
 }
 .GoogleMap iframe {
+    border: 0;    
     width: 100%;
     height: 200px;
-    border: 0;
     display: block;
+}
+.PhoneNumber{
+    padding: 5px;
+    width: 250px;
+    height: 175px;
+    color: white;
+    margin-top: 55px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    background-color: var(--primary-color);
+}
+.PhoneNumber ul, .PhoneNumber a{
+    margin: 5px;
+    align-items: initial;
+    text-decoration: none;
+    color: whitesmoke;
 }
 .GoogleMap p, .PhoneNumber p {
     margin-top: 10px;
@@ -271,8 +292,6 @@ footer p{
 .PhoneNumber li {
     margin-bottom: 5px;
 }
-
-
 
 /*Contact Form*/
 .contact-form{
