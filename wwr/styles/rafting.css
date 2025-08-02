@@ -215,6 +215,7 @@ footer p{
     background-color: var(--primary-color);
 }
 .socialmedia a{
+    height: 50px;
     display: flex;
     padding: 3px;
     margin: 5px;
