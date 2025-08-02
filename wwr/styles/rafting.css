@@ -224,20 +224,6 @@ footer p{
 }
 
 /*get in touch*/
-/*.contacttitle{
-    position: absolute;
-    top: 20px;
-    width: 100%;
-    opacity: 0.8;
-    padding: 16px;
-    text-align: center;
-    background-color: var(--accent2-color);
-    color: #fff;
-}*/
-
-
-
-
 
 /*Map and Location*/
 .find-Us{
@@ -245,17 +231,18 @@ footer p{
 }
 .find-Us h3{
     margin: 5px;
-    margin-left: 55px;
     width: 700px;
     font-size: 20px;
-    color: var(--primary-color);
+    margin-left: 55px;
     text-align: center;
+    color: var(--primary-color);
 }
 .info-container {
-    display: flex;
-    justify-content: center;
-    gap: 40px;
+    gap: 45px;
+    margin: 5px;
+    display: flex;    
     flex-wrap: wrap;
+    justify-content: center;
 }
 .GoogleMap{
     width: 300px;
@@ -309,10 +296,10 @@ footer p{
     box-shadow: 0 0 0 2px var(--primary-color);
 }
 .contact-form h2{
+    font-size: 20px;
+    text-align: left;
     margin-left: 16px;
     margin-bottom: 5px;
-    text-align: left;
-    font-size: 20px;
     color: var(--primary-color);
 }
 .contact-form img{
@@ -346,10 +333,10 @@ form textarea {
     margin-bottom: 10px;
     box-sizing: border-box;
 }
-.radio-grup{
+.radio-group{
+    gap: 16px;
     display: flex;
     flex-wrap: wrap;
-    gap: 16px;
     margin-bottom: 16px;
     flex-direction: column;
 }
