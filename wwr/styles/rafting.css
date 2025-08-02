@@ -224,7 +224,16 @@ footer p{
 }
 
 /*get in touch*/
-
+/*.contacttitle{
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    opacity: 0.8;
+    padding: 16px;
+    text-align: center;
+    background-color: var(--accent2-color);
+    color: #fff;
+}*/
 
 
 
