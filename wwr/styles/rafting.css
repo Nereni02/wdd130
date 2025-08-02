@@ -313,7 +313,7 @@ footer p{
     width: 250px;
     height: auto;
     display: block;  
-    margin-right: 20px;  
+    margin-left: 5px;  
 }
 .form-container {
     gap: 30px;
@@ -341,11 +341,11 @@ form textarea {
     box-sizing: border-box;
 }
 .radio-group{
+    gap: 16px;
     display: flex;
-    gap: 10px;
     flex-wrap: wrap;
-    margin-bottom: 5px;
-    flex-direction: line;
+    margin-bottom: 16px;
+    flex-direction: row;
 }
 .submit-btn {
     border: none;
@@ -357,7 +357,7 @@ form textarea {
 .form-side{
     display: flex;
     flex-direction: column;
-    align-items: left;
+    align-items: flex-center;
 }
 
 /*meet our team*/
