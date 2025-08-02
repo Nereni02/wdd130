@@ -341,11 +341,11 @@ form textarea {
     box-sizing: border-box;
 }
 .radio-group{
-    gap: 16px;
     display: flex;
+    gap: 10px;
     flex-wrap: wrap;
-    margin-bottom: 16px;
-    flex-direction: column;
+    margin-bottom: 5px;
+    flex-direction: line;
 }
 .submit-btn {
     border: none;
@@ -357,8 +357,7 @@ form textarea {
 .form-side{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    gap: 60px;
+    align-items: left;
 }
 
 /*meet our team*/
