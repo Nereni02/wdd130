@@ -224,7 +224,14 @@ footer p{
 }
 
 /*get in touch*/
-
+.hero-title {
+    position: absolute;
+    width: 100%;
+    padding: 1px;
+    opacity: 10%;
+    text-align: center;
+    color: #fff;
+}
 /*Map and Location*/
 .find-Us{
     background-color: #ffffff;
