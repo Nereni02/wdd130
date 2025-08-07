@@ -398,20 +398,20 @@ form textarea {
 /*TRIPS*/
 .cta {
     text-align: center;
-    padding: 2rem;
+    padding: 16px;
     background-color: var(--accent1-color);
     color: white;
-    border-radius: 10px;
-    margin: 2rem auto;
-    max-width: 800px;
+    border-radius: 5px;
+    margin: 5px auto;
+    max-width: 850px;
 }
 .cta h2 {
     font-size: 24px;
-    margin-bottom: 10px;
+    margin-bottom: 2.5px;
 }
 .cta p {
     font-size: 16px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 .cta-button {
     background-color: var(--accent2-color);
@@ -428,13 +428,13 @@ form textarea {
 
 /*TRIP DETAILS*/
 .trip-descriptions {
-    margin: 2rem auto;
-    max-width: 840px;
+    margin: 5px auto;
+    max-width: 850px;
 }
 .trip-descriptions h2 {
     text-align: center;
     color: var(--primary-color);
-    margin-bottom: 1rem;
+    margin-bottom: 10px;
     font-size: 24px;
 }
 .trip {
@@ -442,19 +442,19 @@ form textarea {
     flex-wrap: wrap;
     align-items: center;
     background-color: var(--message-color);
-    border-radius: 8px;
-    padding: 1rem;
-    margin-bottom: 1rem;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 15px;
     gap: 1rem;
 }
 .trip img {
     width: 200px;
     height: auto;
-    border-radius: 8px;
+    border-radius: 2px;
 }
 .trip h3 {
     color: var(--primary-color);
-    margin-bottom: 0.5rem;
+    margin-bottom: 8px;
 }
 .trip p {
     text-align: justify;
@@ -463,14 +463,14 @@ form textarea {
 
 /*table*/
 .trip-table {
-    margin: 2rem auto;
-    max-width: 840px;
+    margin: 5px auto;
+    max-width: 850px;
 }
 .trip-table h2 {
     text-align: center;
     color: var(--primary-color);
     font-size: 24px;
-    margin-bottom: 1rem;
+    margin-bottom: 5px;
 }
 .trip-table table {
     width: 100%;
@@ -487,5 +487,5 @@ form textarea {
     color: white;
 }
 .trip-table tr:nth-child(even) {
-    background-color: #f2f2f2;
+    background-color: var(--message-color);
 }
