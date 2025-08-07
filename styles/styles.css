@@ -1,6 +1,15 @@
+:root{
+    --primary-color: #006eb6 /*#218fcf*/;
+    --secondary-color: #21cfb8;
+    --accent1-color: /*#264653*/#2138cf;
+    --accent2-color: #cf6121;
+    --heading-font: "Merriweather Sans", sans-serif;
+    --body-font: "Lato", sans-serif;
+    --message-color:#e9e9e9;
+}
 *{
-    margin: 0;
-    padding: 0;
+    margin: 2px;
+    padding: 5px;
     box-sizing: border-box;
     padding: 1.5px;
 }
@@ -9,7 +18,7 @@ body{
     font-family: roboto, Arial, sans-serif;
 }
 nav{
-    background-color: #006eb6;
+    background-color: var(--primary-color);
     padding: 1rem;
     display: flex;
     justify-content: space-evenly;
@@ -137,4 +146,29 @@ header, footer{
 }
 footer p{
     text-align: center;
+}
+footer{
+    display: flex;
+    background-color: var(--primary-color);
+    text-align: center;
+    align-items: center;
+}
+footer p{
+    padding: 5px;
+    color: #fff;
+}
+.socialmedia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary-color);
+}
+.socialmedia a{
+    height: 50px;
+    display: flex;
+    padding: 3px;
+    margin: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: #cbe4f1;
 }
