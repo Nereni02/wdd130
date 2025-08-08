@@ -138,6 +138,8 @@ header, footer{
     max-width: fit-content;
     grid-column: 1/2;
 }
+
+
 footer p{
     text-align: center;
 }
