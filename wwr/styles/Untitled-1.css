@@ -340,18 +340,18 @@ h1.hero-title {
     justify-content: center;
 }
 .GoogleMap{
-    width: 300px;
+    width: 310px;
     padding: 5px;
     color: white;
     border-radius: 8px;
     box-sizing: border-box;
     background-color: var(--primary-color);
 }
-.GoogleMap iframe {
-    border: 0;    
+.GoogleMap iframe {   
     width: 100%;
     height: 200px;
     display: block;
+    border-radius: 5px;
 }
 .PhoneNumber{
     padding: 5px;
@@ -388,6 +388,7 @@ h1.hero-title {
     margin: 10px auto;
     background-color: var(--message-color);
     box-shadow: 0 0 0 2px var(--primary-color);
+    border-radius: 5px;
 }
 .contact-form h2{
     font-size: 20px;
@@ -401,6 +402,7 @@ h1.hero-title {
     height: auto;
     display: block;  
     margin-left: 5px;  
+    border-radius: 5px;
 }
 .form-container {
     gap: 30px;
@@ -428,7 +430,7 @@ form textarea {
     box-sizing: border-box;
 }
 .radio-group{
-    gap: 16px;
+    gap: 10px;
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 16px;
@@ -457,7 +459,7 @@ form textarea {
     color: var(--primary-color);
 }
 .profile-container{
-    gap: 4rem;    
+    gap: 16px;    
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
