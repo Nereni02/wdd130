@@ -1,89 +1,100 @@
 <!DOCTYPE html>
 <html lang="en-US">
-    <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=TikTok+Sans:opsz,wght@12..36,300..900&display=swap" rel="stylesheet">
-        <meta charset="UTF-8">
-        <link rel="stylesheet" href="styles/rafting.css">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Adventure Rafting | About Us</title>
-        <meta name="description" content="W04 Rafting Project: About Us Page">
-        <meta name="author" content="Diana Nereni Hernandez Rodriguez">
-    </head>
-    <body>
-        <header>
-            <img src="images/logo.jpg" alt="Rafting Company logo">
-            <nav>
-                <a href="wwr/index.html">Home</a>
-                <a href="/wwr/about.html">About</a>
-                <a href="/wwr/trips.html">Trips</a>
-                <a href="/wwr/contact.html">Contact</a>
-            </nav>
-        </header>        
-        <main>
-            <div class="hero">
-                <img src="images/hero.jpg" alt="Rafting adventure">
-                <h1 class="about">"Wild River Rafting"</h1>
-                <article>
-                    <h2>About Us</h2>
-                    <div class="article-content">
-                        <p>Welcome to our rafting company! We offer the best rafting experiences in the region.</p>    
-                        <img src="images/happy_client.jpg" alt="happy client"><!-- element with the company purpose, mission, creed, motto, etc. -->
-                    </div>
-                </article>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adventure Rafting | About Us</title>
+    <meta name="description" content="Learn about Wild River Rafting, our history, mission, and exciting rafting adventures.">
+    <meta name="author" content="Diana Nereni Hernández Rodríguez">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles/rafting.css">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=TikTok+Sans:opsz,wght@12..36,300..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="images/logo.jpg" alt="Wild River Rafting logo">
+        <nav>
+            <a href="/wwr/index.html">Home</a>
+            <a href="/wwr/about.html" class="active">About</a>
+            <a href="/wwr/trips.html">Trips</a>
+            <a href="/wwr/contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="hero">
+            <img src="images/hero.jpg" alt="Rafting adventure on river" loading="lazy">
+            <h1 class="about">Wild River Rafting</h1>
+            <article>
+                <h2>About Us</h2>
+                <div class="article-content">
+                    <p>Welcome to our rafting company! We offer the best rafting experiences in the region, combining adventure, safety, and fun for all ages.</p>
+                    <img src="images/happy_client.jpg" alt="Happy client enjoying rafting adventure" loading="lazy">
+                </div>
+                    <a href="/wwr/trips.html" class="cta-button">View Our Trips</a>
+                </div>
+            </article>
+        </div>
+
+        <section class="History">
+            <h2>History</h2>
+            <div class="telling_history">
+                <p>Founded in 1990 by outdoor enthusiasts, Wild River Rafting has grown into a leading provider of rafting experiences for all skill levels and ages.</p>
+                <img src="images/history.jpg" alt="Historical photo of rafting team" loading="lazy">
+                <p>Our mission is to share the love of adventure while prioritizing safety, enjoyment, and memorable experiences for everyone.</p>
             </div>
-            <section class="History">
-                <h2>History</h2>
-                <div class="telling_history">
-                    <p>Our rafting company was founded in 1990 by a group of outdoor enthusiasts who wanted to share their love of adventure with others. Over the years, we have grown into a leading provider of rafting experiences, offering trips for all skill levels and ages.</p>
-                    <img src="images/history.jpg" alt="history rafting">
-                    <p>Our rafting company was founded in 1990 by a group of outdoor enthusiasts who wanted to share their love of adventure with others. Over the years, we have grown into a leading provider of rafting experiences, offering trips for all skill levels and ages.</p>
-                </div>
-            </section>
-            <section class="Adventure">
-                <h2>Adventure Awaits You!</h2>
-                <div class="adventure_gallery">
-                    <figure>
-                        <img src="images/diablo_rapids.jpg" alt="Los Dientes del Diablo Rapids">
-                        <figcaption>Los Dientes del Diablo Rapids</figcaption>
-                    </figure>
-                    <figure>
-                        <img src="images/mallard_rapids.jpg" alt="Big Mallard Rapids">
-                        <figcaption>Big Mallard Rapids</figcaption>
-                    </figure>
-                    <figure>
-                        <img src="images/half_day.jpg" alt="Half Day Adventure Rafting">
-                        <figcaption>Half Day Adventure Rafting</figcaption>
-                    </figure>
-                    <figure>
-                        <img src="images/toenail_rapids.jpg" alt="Devil’s Toenail Rapids">
-                        <figcaption>Devil’s Toenail Rapids</figcaption>
-                    </figure>
-                    <figure>
-                        <img src="images/rush_river.jpg" alt="Rapid Rush River Trip">
-                        <figcaption>Rapid Rush River Trip</figcaption>
-                    </figure>
-                </div>
-            </section>
-        </main>
-        <footer>
-            <p> &copy; 2025 | Wild River Rafting | Nereni Rodriguez | All rights reserved.</p>
-            <nav class="socialmedia">
-                <a href="https://www.facebook.com">
-                    <img src="images/face.png" alt="follow Us on Facebook">
-                </a>
-                <a href="https://www.instagram.com">
-                    <img src="images/instagram.png" alt="follow Us on Instagram">
-                </a>
-                <a href="https://www.twitter.com">
-                    <img src="images/x_twitter.png" alt="follow Us on Twitter">
-                </a>
-                <a href="https://www.LinkedIn.com">
-                    <img src="images/linkedin.png" alt="Nereni's LinkedIn profile">
-                </a>
-            </nav>
-        </footer>                  
-    </body>
+        </section>
+
+        <section class="Adventure">
+            <h2>Adventure Awaits You!</h2>
+            <div class="adventure_gallery">
+                <figure>
+                    <img src="images/diablo_rapids.jpg" alt="Los Dientes del Diablo Rapids" loading="lazy">
+                    <figcaption>Los Dientes del Diablo Rapids</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/mallard_rapids.jpg" alt="Big Mallard Rapids" loading="lazy">
+                    <figcaption>Big Mallard Rapids</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/half_day.jpg" alt="Half Day Adventure Rafting" loading="lazy">
+                    <figcaption>Half Day Adventure Rafting</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/toenail_rapids.jpg" alt="Devil’s Toenail Rapids" loading="lazy">
+                    <figcaption>Devil’s Toenail Rapids</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/rush_river.jpg" alt="Rapid Rush River Trip" loading="lazy">
+                    <figcaption>Rapid Rush River Trip</figcaption>
+                </figure>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p> &copy; 2025 | Wild River Rafting | Nereni Rodríguez | All rights reserved.</p>
+        <nav class="socialmedia">
+            <a href="https://www.facebook.com">
+                <img src="images/face.png" alt="Follow us on Facebook" loading="lazy">
+            </a>
+            <a href="https://www.instagram.com">
+                <img src="images/instagram.png" alt="Follow us on Instagram" loading="lazy">
+            </a>
+            <a href="https://www.twitter.com">
+                <img src="images/x_twitter.png" alt="Follow us on X (Twitter)" loading="lazy">
+            </a>
+            <a href="https://www.linkedin.com">
+                <img src="images/linkedin.png" alt="Visit Diana Nereni's LinkedIn profile" loading="lazy">
+            </a>
+        </nav>
+    </footer>
+</body>
 </html>
+
 <!--https://nereni02.github.io/wdd130/wwr/about.html-->

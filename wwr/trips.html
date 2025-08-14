@@ -1,112 +1,123 @@
 <!DOCTYPE html>
 <html lang="en-US">
-    <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=TikTok+Sans:opsz,wght@12..36,300..900&display=swap" rel="stylesheet">
-        <meta charset="UTF-8">
-        <link rel="stylesheet" href="styles/rafting.css">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Wild River Rafting | Trips</title>
-        <meta name="description" content="Explore our exciting rafting trips. Choose your adventure and join us today!">
-        <meta name="author" content="Diana Nereni Hernandez Rodriguez">
-    </head>
-    <body>
-        <header><!--same-->
-            <img src="images/logo.jpg" alt="Rafting Company logo">
-            <nav>
-                <a href="/wwr/index.html">Home</a>
-                <a href="/wwr/about.html">About</a>
-                <a href="/wwr/trips.html">Trips</a>
-                <a href="/wwr/contact.html">Contact</a>
-            </nav>
-        </header>   
-        <main>
-            <section class="cta">
-                <h2>Ready for Adventure?</h2>
-                <p>Contact us today to book your trip or learn more about our packages.</p>
-                <p>We're here to help! Reach out to Wild River Rafting for bookings, questions, or more information about our thrilling rafting adventures.</p>
-                <a class="cta-button" href="contact.html">Contact Us</a>
-            </section>
-            <h2 class="trip-descriptions">Our Top Rafting Trips</h2>
-            <section class="trip-descriptions">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wild River Rafting | Trips</title>
+    <meta name="description" content="Explore our exciting rafting trips. Choose your adventure and join us today!">
+    <meta name="author" content="Diana Nereni Hernández Rodríguez">
 
-                <div class="trip">
-                    <img src="images/diablo_rapids.jpg" alt="Los Dientes del Diablo Rapids">
-                    <div>
-                        <h3>Los Dientes del Diablo</h3>
-                        <p>A thrilling class IV experience for adventure lovers. Navigate sharp turns and steep drops!</p>
-                    </div>
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles/rafting.css">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=TikTok+Sans:opsz,wght@12..36,300..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="images/logo.jpg" alt="Wild River Rafting logo" loading="lazy">
+        <nav>
+            <a href="/wwr/index.html">Home</a>
+            <a href="/wwr/about.html">About</a>
+            <a href="/wwr/trips.html" class="active">Trips</a>
+            <a href="/wwr/contact.html">Contact</a>
+        </nav>
+    </header>   
+
+    <main>
+        <!-- CTA Section -->
+        <section class="cta">
+            <h2>Ready for Adventure?</h2>
+            <p>Contact us today to book your trip or learn more about our packages.</p>
+            <p>We're here to help! Reach out to Wild River Rafting for bookings, questions, or more information about our thrilling rafting adventures.</p>
+            <a class="cta-button" href="/wwr/contact.html">Contact Us</a>
+        </section>
+
+        <!-- Trip Details -->
+        <h2 class="trip-descriptions">Our Top Rafting Trips</h2>
+        <section class="trip-descriptions">
+            <div class="trip">
+                <img src="images/diablo_rapids.jpg" alt="Los Dientes del Diablo Rapids, Class IV adventure" loading="lazy">
+                <div>
+                    <h3>Los Dientes del Diablo</h3>
+                    <p>A thrilling class IV experience for adventure lovers. Navigate sharp turns and steep drops!</p>
                 </div>
-                <div class="trip">
-                    <img src="images/half_day.jpg" alt="Half Day Adventure">
-                    <div>
-                        <h3>Half Day Adventure</h3>
-                        <p>Perfect for beginners! Enjoy calm waters and beautiful scenery on this 3-hour excursion.</p>
-                    </div>
+            </div>
+            <div class="trip">
+                <img src="images/half_day.jpg" alt="Half Day Adventure Rafting, calm waters" loading="lazy">
+                <div>
+                    <h3>Half Day Adventure</h3>
+                    <p>Perfect for beginners! Enjoy calm waters and beautiful scenery on this 3-hour excursion.</p>
                 </div>
-                <div class="trip">
-                    <img src="images/rush_river.jpg" alt="Rapid Rush River Trip">
-                    <div>
-                        <h3>Rapid Rush River</h3>
-                        <p>A full day of excitement with various rapid classes, lunch included.</p>
-                    </div>
+            </div>
+            <div class="trip">
+                <img src="images/rush_river.jpg" alt="Rapid Rush River Trip, full day rafting" loading="lazy">
+                <div>
+                    <h3>Rapid Rush River</h3>
+                    <p>A full day of excitement with various rapid classes, lunch included.</p>
                 </div>
-            </section>
-            <section class="trip-table">
-                <h2>Compare Our Trips</h2>
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Trip Name</th>
-                            <th>Difficulty</th>
-                            <th>Duration</th>
-                            <th>Price</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Los Dientes del Diablo</td>
-                            <td>Hard (Class IV)</td>
-                            <td>4 hours</td>
-                            <td>$120 USD</td>
-                        </tr>
-                        <tr>
-                            <td>Half Day Adventure</td>
-                            <td>Easy (Class I-II)</td>
-                            <td>3 hours</td>
-                            <td>$65 USD</td>
-                        </tr>
-                        <tr>
-                            <td>Rapid Rush River</td>
-                            <td>Moderate (Class III)</td>
-                            <td>6 hours</td>
-                            <td>$150 USD</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </section>
-        </main>     
-        <footer><!--same-->
-            <p> &copy; 2025 | Wild River Rafting | Nereni Rodriguez | All rights reserved.</p>
-            <nav class="socialmedia">
-                <a href="https://app.moqups.com/6qP68S6jvKqS5OBnymYoaWWtw8S1mSws/view/page/a07d6fe36">
-                    <img src="images/moqups.png" alt="Moqups">
-                </a>
-                <a href="https://www.facebook.com">
-                    <img src="images/face.png" alt="follow Us on Facebook">
-                </a>
-                <a href="https://www.instagram.com">
-                    <img src="images/instagram.png" alt="follow Us on Instagram">
-                </a>
-                <a href="https://www.twitter.com">
-                    <img src="images/x_twitter.png" alt="follow Us on Twitter">
-                </a>
-                <a href="https://www.LinkedIn.com">
-                    <img src="images/linkedin.png" alt="Nereni's LinkedIn profile">
-                </a>
-            </nav>
-        </footer>                  
-    </body>
+            </div>
+        </section>
+
+        <!-- Trip Table -->
+        <section class="trip-table">
+            <h2>Compare Our Trips</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Trip Name</th>
+                        <th>Difficulty</th>
+                        <th>Duration</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Los Dientes del Diablo</td>
+                        <td>Hard (Class IV)</td>
+                        <td>4 hours</td>
+                        <td>$120 USD</td>
+                    </tr>
+                    <tr>
+                        <td>Half Day Adventure</td>
+                        <td>Easy (Class I-II)</td>
+                        <td>3 hours</td>
+                        <td>$65 USD</td>
+                    </tr>
+                    <tr>
+                        <td>Rapid Rush River</td>
+                        <td>Moderate (Class III)</td>
+                        <td>6 hours</td>
+                        <td>$150 USD</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>     
+
+    <footer>
+        <p> &copy; 2025 | Wild River Rafting | Nereni Rodríguez | All rights reserved.</p>
+        <nav class="socialmedia">
+            <a href="https://app.moqups.com/6qP68S6jvKqS5OBnymYoaWWtw8S1mSws/view/page/a07d6fe36">
+                <img src="images/moqups.png" alt="Wireframe prototype of rafting website in Moqups" loading="lazy">
+            </a>
+            <a href="https://www.facebook.com">
+                <img src="images/face.png" alt="Follow us on Facebook" loading="lazy">
+            </a>
+            <a href="https://www.instagram.com">
+                <img src="images/instagram.png" alt="Follow us on Instagram" loading="lazy">
+            </a>
+            <a href="https://www.twitter.com">
+                <img src="images/x_twitter.png" alt="Follow us on X (Twitter)" loading="lazy">
+            </a>
+            <a href="https://www.linkedin.com">
+                <img src="images/linkedin.png" alt="Visit Diana Nereni's LinkedIn profile" loading="lazy">
+            </a>
+        </nav>
+    </footer>                  
+</body>
 </html>
+
 <!-- https://app.moqups.com/6qP68S6jvKqS5OBnymYoaWWtw8S1mSws/view/page/a07d6fe36 -->

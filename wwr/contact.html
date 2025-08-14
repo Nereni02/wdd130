@@ -1,120 +1,155 @@
 <!DOCTYPE html>
 <html lang="en-US">
-    <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=TikTok+Sans:opsz,wght@12..36,300..900&display=swap" rel="stylesheet">
-        <meta charset="UTF-8">
-        <link rel="stylesheet" href="styles/rafting.css">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Contact Wild River Rafting | Adventure Awaits</title>
-        <meta name="description" content="Get in touch with Wild River Rafting to book your next thrilling adventure or ask any questions. Expert guides, unforgettable experiences since 1990.">
-        <meta name="author" content="Diana Nereni Hernandez Rodriguez">
-    </head>
-    <body>
-        <header><!--same-->
-            <img src="images/logo.jpg" alt="Rafting Company logo">
-            <nav>
-                <a href="/wwr/index.html">Home</a>
-                <a href="/wwr/about.html">About</a>
-                <a href="/wwr/trips.html">Trips</a>
-                <a href="/wwr/contact.html">Contact</a>
-            </nav>
-        </header>   
-        <main>
-            <div class="hero">
-                <img src="images/contactus.jpg" alt="Contact Us">
-                    <h1 class="hero-title">Get in Touch</h1>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Wild River Rafting | Adventure Awaits</title>
+    <meta name="description" content="Get in touch with Wild River Rafting to book your next thrilling adventure or ask any questions. Expert guides, unforgettable experiences since 1990.">
+    <meta name="author" content="Diana Nereni Hernandez Rodriguez">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=TikTok+Sans:opsz,wght@12..36,300..900&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <img src="images/logo.jpg" alt="Rafting Company logo" loading="lazy">
+        <nav>
+            <a href="/wwr/index.html">Home</a>
+            <a href="/wwr/about.html">About</a>
+            <a href="/wwr/trips.html">Trips</a>
+            <a href="/wwr/contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <div class="hero">
+            <img src="images/contactus.jpg" alt="Contact Us" loading="lazy">
+            <h1 class="hero-title">Get in Touch</h1>
+        </div>
+
+        <!-- Contact Info Section -->
+        <section class="find-Us">
+            <h3>Contact us and we will gladly help you navigate your river experience</h3>
+            <div class="info-container">
+                <div class="GoogleMap">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=..." 
+                        title="Map to Wild River Rafting" 
+                        allowfullscreen 
+                        loading="lazy">
+                    </iframe>
+                    <p>Address: C. Vieja 332-casa 52, Bugambilias II, 62157 Cuernavaca, Mor.</p>
+                </div>
+                <div class="PhoneNumber">
+                    <p>Here are our phone numbers and email addresses:</p>
+                    <ul>
+                        <li><a href="tel:+15550107890">+1 555-010-7890</a></li>
+                        <li><a href="tel:+525512345678">+52 55 1234 5678</a></li>
+                        <li><a href="mailto:info@wildriverrafting.com">info@wildriverrafting.com</a></li>
+                        <li><a href="mailto:bookings@wildriverrafting.com">bookings@wildriverrafting.com</a></li>
+                    </ul>
+                </div>
             </div>
-            <section class="find-Us">
-                <h3>Contact us and we will gladly help you navigate your river experience</h3>
-                <div class="info-container">
-                    <div class="GoogleMap"><!--Map-->
-                        <iframe src="https://www.google.com/maps/embed?pb=..." allowfullscreen="" loading="lazy"></iframe>
-                        <p>Address: C. Vieja 332-casa 52, Bugambilias II, 62157 Cuernavaca, Mor.</p>
+        </section>
+
+        <!-- Contact Form Section -->
+        <section class="contact-form">
+            <h2>Send Us a Message</h2>
+            <div class="form-container">
+                <div class="form-side">
+                    <img src="images/send_message.jpg" alt="Send us a message" loading="lazy">
+                </div>
+                <form action="#" method="post" novalidate>
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="name" required placeholder="Full name">
+
+                    <label for="email">Your Email Address:</label>
+                    <input type="email" id="email" name="email" required placeholder="example@domain.com">
+
+                    <label for="message">Your Message:</label>
+                    <textarea id="message" name="message" rows="5" required placeholder="Type your message here..."></textarea>
+
+                    <p>Purpose of your message:</p>
+                    <div class="radio-group">
+                        <input type="radio" id="purpose-general" name="purpose" value="general" required>
+                        <label for="purpose-general">General Inquiry</label>
+
+                        <input type="radio" id="purpose-reservation" name="purpose" value="reservation">
+                        <label for="purpose-reservation">Reservation</label>
+
+                        <input type="radio" id="purpose-suggestion" name="purpose" value="suggestion">
+                        <label for="purpose-suggestion">Website Suggestion</label>
                     </div>
-                    <div class="PhoneNumber"><!--Contact-->
-                        <p>Here are our phone numbers and email addresses:</p>
-                        <ul>
-                            <li>+1 555-010-7890</li>
-                            <li>+52 55 1234 5678</li>
-                            <li><a href="mailto:info@wildriverrafting.com">info@wildriverrafting.com</a></li>
-                            <li><a href="mailto:bookings@wildriverrafting.com">bookings@wildriverrafting.com</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </section>
-            <section class="contact-form"><!--Contact Us-->
-                <h2>Send Us a Message</h2>
-                <div class="form-container">
-                    <div class="form-side">
-                            <img src="images/send_message.jpg" alt="Send us a message">
-                            <button type="submit" class="submit-btn">Contact Our Team</button>                  
-                        </div>
-                    <form action="#" method="post" novalidate>
-                        <label for="name">Your Name:</label>
-                        <input type="text" id="name" name="name" required placeholder="Full name">
-                        <label for="email">Your Email Address:</label>
-                        <input type="email" id="email" name="email" required placeholder="example@domain.com">
-                        <label for="message">Your Message:</label>
-                        <textarea id="message" name="message" rows="5" required placeholder="Type here your message..."></textarea>
-                        <p>Purpose of your message:</p>
-                        <div class="radio-group">
-                            <input type="radio" id="purpose-general" name="purpose" value="general" required>
-                            <label for="purpose-general">General Inquiry</label>
-                            <input type="radio" id="purpose-reservation" name="purpose" value="reservation">
-                            <label for="purpose-reservation">Reservation</label>
-                            <input type="radio" id="purpose-suggestion" name="purpose" value="suggestion">
-                            <label for="purpose-suggestion">Website Suggestion</label>
-                        </div>
-                            <label for="subscribe">
-                                <input type="checkbox" id="subscribe" name="subscribe" value="yes">
-                                Subscribe to our newsletter
-                            </label>
-                    </form>
-                </div>
-            </section>
-            <section class="profiles"> <!--Employee-->
-                <h2>Meet Our Team</h2>
-                <div class="profile-container">
-                    <figure>
-                        <img src="images/employee1.png" alt="Jane Smith - Customer Service Manager">
-                        <figcaption>Jane Smith
-                        <h3>Customer Service Manager</h3></figcaption>
-                    </figure>
-                    <figure>
-                        <img src="images/employee2.jpg" alt="Carlos Martinez - Adventure Guide">
-                        <figcaption>Carlos Martinez <h3>Adventure Guide</h3>
-                        </figcaption>
-                    </figure>
-                    <figure>
-                        <img src="images/employee3.jpg" alt="Emily Johnson - Reservation Specialist">
-                        <figcaption>Emily Johnson <h3>Reservation Specialist</h3></figcaption>
-                    </figure>
-                </div>
-            </section>    
-        </main>     
-        <footer><!--same-->
-            <p> &copy; 2025 | Wild River Rafting | Nereni Rodriguez | All rights reserved.</p>
-            <nav class="socialmedia">
-                <a href="https://app.moqups.com/6qP68S6jvKqS5OBnymYoaWWtw8S1mSws/view/page/a9b9a339d">
-                    <img src="images/moqups.png" alt="Moqups">
-                </a>
-                <a href="https://www.facebook.com">
-                    <img src="images/face.png" alt="follow Us on Facebook">
-                </a>
-                <a href="https://www.instagram.com">
-                    <img src="images/instagram.png" alt="follow Us on Instagram">
-                </a>
-                <a href="https://www.twitter.com">
-                    <img src="images/x_twitter.png" alt="follow Us on Twitter">
-                </a>
-                <a href="https://www.LinkedIn.com">
-                    <img src="images/linkedin.png" alt="Nereni's LinkedIn profile">
-                </a>
-            </nav>
-        </footer>                  
-    </body>
+
+                    <label for="subscribe">
+                        <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+                        Subscribe to our newsletter
+                    </label>
+
+                    <button type="submit" class="submit-btn">Contact Our Team</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- Meet Our Team Section -->
+        <section class="profiles">
+            <h2>Meet Our Team</h2>
+            <div class="profile-container">
+                <figure>
+                    <img src="images/employee1.png" alt="Jane Smith - Customer Service Manager" loading="lazy">
+                    <figcaption>
+                        Jane Smith <br>
+                        <span>Customer Service Manager</span>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="images/employee2.jpg" alt="Carlos Martinez - Adventure Guide" loading="lazy">
+                    <figcaption>
+                        Carlos Martinez <br>
+                        <span>Adventure Guide</span>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="images/employee3.jpg" alt="Emily Johnson - Reservation Specialist" loading="lazy">
+                    <figcaption>
+                        Emily Johnson <br>
+                        <span>Reservation Specialist</span>
+                    </figcaption>
+                </figure>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 | Wild River Rafting | Nereni Rodriguez | All rights reserved.</p>
+        <nav class="socialmedia">
+            <a href="https://app.moqups.com/6qP68S6jvKqS5OBnymYoaWWtw8S1mSws/view/page/a9b9a339d">
+                <img src="images/moqups.png" alt="Moqups" loading="lazy">
+            </a>
+            <a href="https://www.facebook.com">
+                <img src="images/face.png" alt="follow Us on Facebook" loading="lazy">
+            </a>
+            <a href="https://www.instagram.com">
+                <img src="images/instagram.png" alt="follow Us on Instagram" loading="lazy">
+            </a>
+            <a href="https://www.twitter.com">
+                <img src="images/x_twitter.png" alt="follow Us on Twitter" loading="lazy">
+            </a>
+            <a href="https://www.LinkedIn.com">
+                <img src="images/linkedin.png" alt="Nereni's LinkedIn profile" loading="lazy">
+            </a>
+        </nav>
+    </footer>
+</body>
 </html>
 
 <!--https://byui-cse.github.io/wdd130-ww-course/week05/prove-rafting-contactus.html-->

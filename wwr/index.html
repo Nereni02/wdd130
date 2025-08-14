@@ -1,61 +1,74 @@
 <!DOCTYPE html>
 <html lang="en-US">
-    <head>
-        <link rel="stylesheet" href="styles/rafting.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Diana Nereni Hernandez Rodriguez | WDD 130</title>
-        <meta name="description" content="Learn the basics of HTML and CSS in this introductory web development course by Diana Nereni Hernández Rodríguez. Ideal for beginners wanting to build modern websites.">
-        <meta name="author" content="Diana Nereni Hernandez Rodriguez">    
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diana Nereni Hernández Rodríguez | Web Design & Development</title>
+    <meta name="description" content="Portfolio and projects of Diana Nereni Hernández Rodríguez, showcasing skills in web design, UX/UI, branding, and marketing.">
+    <meta name="author" content="Diana Nereni Hernández Rodríguez">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles/rafting.css">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
 <body>
     <header>
-            <nav>
-                <a href="/wwr/index.html">Home</a>
-                <a href="/wwr/about.html">Rafting Website</a>
-                <a href="https://www.linkedin.com/in/diana-nereni-hern%C3%A1ndez-rodriguez-a9b2a8205/">Profile</a>
-            </nav>
+        <nav>
+            <a href="/wwr/index.html" class="active">Home</a>
+            <a href="/wwr/about.html">Rafting Website</a>
+            <a href="https://www.linkedin.com/in/diana-nereni-hern%C3%A1ndez-rodriguez-a9b2a8205/">Profile</a>
+        </nav>
     </header>
+
     <div class="grid">
         <aside class="box">
             <h2>Mexico</h2>
-            <img src="/images/mexico.jpg" alt="Mexico city">
+            <img src="/images/mexico.jpg" alt="Skyline of Mexico City" loading="lazy">
             <p>Mexico is known for its rich cultural heritage, delicious cuisine, and beautiful landscapes.</p>
-            <aside class="box_indent">
-                <ul class="box">
+            <div class="box_indent">
+                <ul>
                     <li><a href="https://churchofjesuschristtemples.org/veracruz-mexico-temple/">Veracruz Mexico Temple</a></li>
                     <li><a href="https://churchofjesuschristtemples.org/taipei-taiwan-temple/">Taipei Taiwan Temple</a></li>
                     <li><a href="https://churchofjesuschristtemples.org/freiberg-germany-temple/">Freiberg Germany Temple</a></li>
                 </ul>
-            </aside>            
+            </div>
         </aside>
+
         <main class="home">
-            <h1 class="home">Nereni Rodriguez |WDD 130</h1>
-            <p>Hello, my name is Diana Nereni Hernandez Rodriguez and I am from Mexico 
-            </p>
-            <p>Deep down, I’m an introvert who finds peace in quiet moments, but I’ve always felt a special joy when dancing—it’s one of my favorite ways to express myself. I also have a strong appreciation for art in all its forms, from visual design to creative storytelling.           <img src="/wwr/images/profile.webp" alt="Hello mane is Diana Nereni Hernandez Rodriguez" width="200">
-            </p>
+            <h1 class="home">Diana Nereni Hernández Rodríguez</h1>
+            <p>Hello, my name is Diana Nereni Hernandez Rodriguez and I am from Mexico.</p>
+
+            <p>Deep down, I’m an introvert who finds peace in quiet moments, but I’ve always felt a special joy when dancing—it’s one of my favorite ways to express myself. I also have a strong appreciation for art in all its forms, from visual design to creative storytelling.</p>
+
+            <img src="/wwr/images/profile.webp" alt="Portrait of Diana Nereni Hernández Rodríguez" width="200" loading="lazy">
+
             <p>Professionally, I’m deeply interested in the world of digital design, especially areas like UX/UI, branding, and marketing. I’m currently focused on developing my skills to work with companies both in Mexico and the United States. My goal is to combine creativity with strategy to design meaningful experiences that connect with people. Whether it’s through color, layout, or interaction, I want my work to have purpose and emotion.</p>
         </main>
-    </div>    
+        <section class="cta-home">
+            <h2>Ready for Adventure?</h2>
+            <p>Discover our thrilling rafting trips and create unforgettable memories on the river!</p>
+            <a class="cta-button" href="/wwr/trips.html">Explore Trips</a>
+        </section>
+    </div>
     <footer>
-        <p>© 2025 🎫 Nereni Rodriguez 🎫 Metepec Mexico</p>
+        <p>© 2025 🎫 Nereni Rodriguez 🎫 Metepec, Mexico</p>
         <nav class="socialmedia">
             <a href="https://www.facebook.com">
-                <img src="/wwr/images/face.png" alt="follow Us on Facebook">
-                </a>
+                <img src="/wwr/images/face.png" alt="Follow us on Facebook" loading="lazy">
+            </a>
             <a href="https://www.instagram.com">
-                <img src="/wwr/images/instagram.png" alt="follow Us on Instagram">
-                </a>
+                <img src="/wwr/images/instagram.png" alt="Follow us on Instagram" loading="lazy">
+            </a>
             <a href="https://www.twitter.com">
-                <img src="/wwr/images/x_twitter.png" alt="follow Us on Twitter">
-                </a>
-            <a href="https://www.LinkedIn.com">
-                <img src="/wwr/images/linkedin.png" alt="Nereni's LinkedIn profile">
-                </a>
+                <img src="/wwr/images/x_twitter.png" alt="Follow us on X (Twitter)" loading="lazy">
+            </a>
+            <a href="https://www.linkedin.com">
+                <img src="/wwr/images/linkedin.png" alt="Visit Diana Nereni's LinkedIn profile" loading="lazy">
+            </a>
         </nav>
     </footer>
 </body>
